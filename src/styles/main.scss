@@ -1,0 +1,18 @@
+// base
+@import 'config';
+@import 'fonts';
+@import 'variables';
+@import 'vendor/index';
+
+//mixins
+@import 'mixins/typography';
+
+//atoms
+@import 'atoms/00-typography';
+
+// molecules
+// organism
+
+// core aplication
+@import 'core/grid';
+@import 'core/base';

@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    @include set-font-family();
+    font-weight: normal;
+    line-height: 1.5;
+    color: $default-text-color;
+    text-rendering: optimizeLegibility;
+}

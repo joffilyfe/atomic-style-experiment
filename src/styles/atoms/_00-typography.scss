@@ -1,0 +1,16 @@
+@for $i from 1 through 6 {
+    h#{$i} {
+        @include set-font-size( ms(7-$i) );
+        @include set-font-family("heading");
+        line-height: 1.5;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+p {
+    @include set-font-size(ms(0));
+    @include set-font-family();
+    color: $alternative-text-color;
+}

@@ -1,0 +1,11 @@
+.wrapper {
+    &.grid {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 rem(15px);
+
+        @media screen and (min-width: $min-medium-screen) {
+            width: $min-medium-screen;
+        }
+    }
+}

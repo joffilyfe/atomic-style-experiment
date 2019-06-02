@@ -1,0 +1,11 @@
+@mixin set-font-size($size) {
+    @include rem(font-size, $size);
+}
+
+@mixin set-font-family($type: "text") {
+    @if $type == "heading" {
+        font-family: $primary-font;
+    } @else {
+        font-family: $secondary-font;
+    }
+}

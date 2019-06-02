@@ -1,0 +1,15 @@
+// colors
+$default-text-color: #212121;
+$alternative-text-color: lighten($default-text-color, 5);
+
+// fonts
+$primary-font: "Noto Sans", "Arial", sans-serif;
+$secondary-font: "Noto Serif", serif;
+
+
+// breakpoints
+$min-extra-small-screen: 0px;
+$min-small-screen: 576px;
+$min-medium-screen: 768px;
+$min-large-screen: 992px;
+$min-extra-large-screen: 1200px;
